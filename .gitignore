@@ -90,3 +90,6 @@ ehthumbs.db
 
 # Python virtual environment
 venv/
+
+# Firebase service account key
+backend/firebaseServiceAccountKey.json
