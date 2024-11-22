@@ -1,0 +1,191 @@
+@import './shared.css';
+
+.admin-page {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
+.admin-page h1 {
+  color: #0039A6;
+}
+
+.admin-page p {
+  color: #374057;
+}
+
+.admin-page form {
+  margin: 20px 0;
+}
+
+.admin-page form div {
+  margin-bottom: 10px;
+}
+
+.admin-page label {
+  margin-right: 10px;
+}
+
+.admin-page input,
+.admin-page textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.admin-page button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #0071CE;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-page button:hover {
+  background-color: #0056b3;
+}
+
+.admin-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-page li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.admin-page li h3 {
+  margin: 0;
+  color: #0039A6;
+}
+
+.admin-page li p {
+  margin: 5px 0;
+  color: #374057;
+}
+
+.profile-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #0071CE;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-button:hover {
+  background-color: #0056b3;
+}
+
+.logout-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #0071CE;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-button {
+  background-color: #767679;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+.edit-button:hover {
+  background-color: #5e5e5e;
+}
+
+.delete-button {
+  background-color: #CC0000;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.delete-button:hover {
+  background-color: #990000;
+}
+
+.view-rsvp-button {
+  background-color: #0071CE;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.view-rsvp-button:hover {
+  background-color: #0056b3;
+}
+
+.rsvp-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.rsvp-modal h2 {
+  color: #0039A6;
+}
+
+.rsvp-modal ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.rsvp-modal li {
+  margin: 10px 0;
+  color: #374057;
+}
+
+.rsvp-modal button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0071CE;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.rsvp-modal button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,47 @@
+@import './shared.css';
+
+.register-page {
+  text-align: center;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
+.register-page h1 {
+  color: #0039A6;
+}
+
+.register-page p {
+  color: #374057;
+}
+
+.register-page form {
+  margin: 20px 0;
+}
+
+.register-page form div {
+  margin-bottom: 10px;
+}
+
+.register-page label {
+  margin-right: 10px;
+}
+
+.register-page input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register-page button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #0071CE;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-page button:hover {
+  background-color: #0056b3;
+}

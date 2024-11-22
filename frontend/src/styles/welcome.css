@@ -1,0 +1,91 @@
+.welcome-page {
+  text-align: center;
+  background-color: #FFFFFF;
+  background-image: url('/./public/background.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the top */
+  height: 100vh;
+  overflow: hidden;
+}
+
+.welcome-bar {
+  width: 100%;
+  height: 50px;
+  background-color: #767679;
+}
+
+.top-bar {
+  position: fixed;
+  top: 0;
+}
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+}
+
+.welcome-header {
+  margin-top: 50px; /* Adjust this value to move the header higher */
+}
+
+.welcome-header-bg {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.welcome-header h1 {
+  color: #0039A6;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.welcome-header p {
+  color: #374057;
+  font-size: 1.2em;
+}
+
+.welcome-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust this value to move the buttons higher */
+}
+
+.welcome-button {
+  margin: 0 20px;
+}
+
+.welcome-button-bg {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 40px; /* Ensure both backgrounds are the same size */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the button horizontally */
+  text-align: center; /* Center text within the background */
+}
+
+.welcome-button p {
+  color: #374057;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.welcome-button button {
+  padding: 10px 20px;
+  background-color: #0071CE;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.welcome-button button:hover {
+  background-color: #0056b3;
+}

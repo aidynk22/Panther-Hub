@@ -1,0 +1,53 @@
+/* Shared styles for forms */
+
+/* GSU Colors:
+  Georgia State Blue: #0039A6
+  White: #FFFFFF
+  Red Accent: #CC0000
+  Light Blue: #97CAEB
+  Blue Steel: #374057
+  Cool Blue: #0071CE
+  Vibrant Blue: #00AEEF
+  Light Gray: #EEEEEE
+  Medium Gray: #CCCCCC
+  Dark Gray: #767679
+  */
+
+.form-container {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 400px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #374057;
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+  width: 100%; /* Ensure full width within the container */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+.form-container button {
+  background-color: #0071CE;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
