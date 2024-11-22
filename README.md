@@ -15,7 +15,7 @@ Panther Hub is a centralized campus event management platform that provides real
 1. **Backend**:
    - Navigate to `backend/`.
    - Install dependencies: `npm install`.
-   - Start the server: `node app.js` or `npm start`.
+   - Start the server: `npm run dev`.
 
 2. **Frontend**:
    - Navigate to `frontend/`.
