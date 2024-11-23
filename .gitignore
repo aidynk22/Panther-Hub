@@ -50,6 +50,7 @@ coverage/
 
 # Gatsby files
 .cache/
+public/
 
 # vuepress build output
 .vuepress/dist/
@@ -90,5 +91,6 @@ ehthumbs.db
 # Python virtual environment
 venv/
 
-# Firebase service account key
-backend/firebaseServiceAccountKey.json
+# Firebase configuration
+firebase.js
+firebaseServiceAccountKey.json
