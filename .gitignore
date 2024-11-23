@@ -92,5 +92,5 @@ ehthumbs.db
 venv/
 
 # Firebase configuration
-firebase.js
-firebaseServiceAccountKey.json
+.firebase.js
+.firebaseServiceAccountKey.json
