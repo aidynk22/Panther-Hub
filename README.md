@@ -6,8 +6,6 @@ Panther Hub is a centralized campus event management platform that provides real
 
 - **backend/**: Contains server-side code with routes, controllers, models, and configurations.
 - **frontend/**: Includes React components, pages, and styles.
-- **database/**: SQL script for database setup.
-- **dist/**: Contains the production build.
 - **node_modules/**: Installed npm dependencies.
 
 ## How to Run
@@ -47,8 +45,17 @@ REACT_APP_BACKEND_URL=http://localhost:5000
 
 ## Dependencies
 
-- **Frontend**: React, React Router, Google Maps API
-- **Backend**: Node.js, Express, MongoDB/Mongoose, Twilio for notifications
+### Frontend 
+- React 
+- React Router 
+- Firebase
+- Google Maps API
+
+### Backend 
+- Node.js
+- Express
+- Twilio
+- Firebase Admin SDK
 
 ## License
 This project is open-source and available under the MIT License.
